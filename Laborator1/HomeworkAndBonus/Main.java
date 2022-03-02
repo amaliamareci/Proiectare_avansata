@@ -1,4 +1,5 @@
 
+
 import java.lang.*;
 import java.util.*;
 
@@ -17,41 +18,40 @@ public class Main {
         long startTime = System.nanoTime();
         int n, p;
         String alfabet = "";
-        if(args.length==0){
-            Scanner scanner=new Scanner(System.in);
+        if (args.length == 0) {
+            Scanner scanner = new Scanner(System.in);
             n = scanner.nextInt();
-            p=scanner.nextInt();
-            alfabet=scanner.next();
+            p = scanner.nextInt();
+            alfabet = scanner.next();
             //validarea
-            if(n<0||p<0)
+            if (n < 0 || p < 0)
                 System.exit(0);
-            for(int i=0;i<alfabet.length();i++)
-                if(!alfabet.matches("[a-zA-Z]+"))
+            for (int i = 0; i < alfabet.length(); i++)
+                if (!alfabet.matches("[a-zA-Z]+"))
                     System.exit(0);
-        }
-        else{
-        String input = args[0];
-        if (!esteNumar(input)) {
-            System.out.println(input + " is not a valid integer");
-            System.exit(0);
-        }
-        n = Integer.parseInt(input);
-
-        String input2 = args[1];
-        if (!esteNumar(input2)) {
-            System.out.println(input2 + " is not a valid integer");
-            System.exit(0);
-        }
-        p = Integer.parseInt(input2);
-
-        for (int i = 2; i < args.length; i++) {
-            String input3 = args[i];
-            if (Character.isLetter(input3.charAt(0)))
-                alfabet += input3;
-            else {
+        } else {
+            String input = args[0];
+            if (!esteNumar(input)) {
+                System.out.println(input + " is not a valid integer");
                 System.exit(0);
             }
-        }
+            n = Integer.parseInt(input);
+
+            String input2 = args[1];
+            if (!esteNumar(input2)) {
+                System.out.println(input2 + " is not a valid integer");
+                System.exit(0);
+            }
+            p = Integer.parseInt(input2);
+
+            for (int i = 2; i < args.length; i++) {
+                String input3 = args[i];
+                if (Character.isLetter(input3.charAt(0)))
+                    alfabet += input3;
+                else {
+                    System.exit(0);
+                }
+            }
         }
         //generare sir de cuvinte
         String[] words = generareCuvinte(n, p, alfabet);
@@ -72,8 +72,9 @@ public class Main {
 
         //Pentru bonus=cel mai lung subsir de cuvinte vecine (echivlent cu cel mai lung ciclu dintr un graf)
         cautareSubsiruri(n, matrix);
-        afisareSubsir();
+        afisareSubsir(words);
     }
+
     /**
      * Functia esteNumar verifica daca inputul este numar sau nu
      */
@@ -185,12 +186,12 @@ public class Main {
     /**
      * Functia back este o functie recursiva pentru afla toate ciclurile din matricea booleana matrix care poate fi vazuta ca un graf
      *
-     * @param k  -indicele de la care incepem sa cautam
-     * @param pas- pasul la care suntem
+     * @param k               -indicele de la care incepem sa cautam
+     * @param pas-            pasul la care suntem
      * @param n-dimensiunea   matricei
      * @param matrix-matricea booleana a vecinilor
-     * @param ciclu - elemenetele ciclului/subsirului de cuvinte vecine
-     * @param vizitat   -cuvintele vizitate
+     * @param ciclu           - elemenetele ciclului/subsirului de cuvinte vecine
+     * @param vizitat         -cuvintele vizitate
      */
     public static void creareSubsir(int k, int pas, int n, boolean[][] matrix, int[] ciclu, int[] vizitat) {
 
@@ -218,16 +219,15 @@ public class Main {
         }
     }
 
-    public static void afisareSubsir() {
+    public static void afisareSubsir(String[] words) {
         if (lungime == 2)
             System.out.println("Nu s-a putut gasi un sir de cuvinte de lungime >=3");
         else {
             System.out.println("lungimea maxima a unui subsir este : " + lungime);
             for (int i = 0; i < lungime; i++)
-                System.out.print(subsir[i]);
+                System.out.print(words[subsir[i]] + ",");
         }
     }
-
-
+    
 }
 

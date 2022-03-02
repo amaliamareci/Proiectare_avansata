@@ -1,3 +1,5 @@
+Homework + Bonus
+
 Initial am salvat n,p si literele dupa ce le-am citit ca si argumente de la linia de comanda sau de la tastatura apoi le-am validat. 
 Am realizat sirul de n cuvinte a cate p caractere fiecare formate doar din literele citite ,apoi matricea booleana urmand ca in final sa generez vecinii fiecarui cuvant reprezentate de indexul lor.Pentru un n > 30_000 am intampinat probleme la rularea si afisarea timpului.
 Pentru bonus am vizualizat matricea boleeana cu vecinii ca un graf si pentru a identifica subsirul W1,W2,...,Wk ,unde k>=3 si W1=Wk+1 am identificat ciclurile din matrice urmand sa-l afisez pe cel de lungime maxima.

@@ -186,12 +186,12 @@ public class Main {
     /**
      * Functia back este o functie recursiva pentru afla toate ciclurile din matricea booleana matrix care poate fi vazuta ca un graf
      *
-     * @param k               -indicele de la care incepem sa cautam
-     * @param pas-            pasul la care suntem
-     * @param n-dimensiunea   matricei
+     * @param k   -indicele de la care incepem sa cautam
+     * @param pas-    pasul la care suntem
+     * @param n-dimensiunea  matricei
      * @param matrix-matricea booleana a vecinilor
-     * @param ciclu           - elemenetele ciclului/subsirului de cuvinte vecine
-     * @param vizitat         -cuvintele vizitate
+     * @param ciclu    - elemenetele ciclului/subsirului de cuvinte vecine
+     * @param vizitat  -cuvintele vizitate
      */
     public static void creareSubsir(int k, int pas, int n, boolean[][] matrix, int[] ciclu, int[] vizitat) {
 

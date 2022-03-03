@@ -209,7 +209,6 @@ public class Main {
     /**
      * @param n     -lungimea ciclului
      * @param ciclu []- elemenetele ciclului
-     * @param ciclu []- elemenetele ciclului
      */
     public static void esteMaxim(int n, int[] ciclu) {
         if (n >= lungime) {

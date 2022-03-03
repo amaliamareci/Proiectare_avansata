@@ -126,7 +126,7 @@ public class Main {
     }
 
     /**
-     * Functia genereaza matricea booleana in care se verifica daca doua cuvinte din wrords sunt vecine sau nu
+     * Functia genereaza matricea booleana in care se verifica daca doua cuvinte din words sunt vecine sau nu
      *
      * @return matrix - matricea booleana a vacinilor
      */

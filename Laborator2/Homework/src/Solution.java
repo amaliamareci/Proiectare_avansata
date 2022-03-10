@@ -6,6 +6,10 @@ public class Solution {
         this.rooms = rooms;
         this.events = events;
     }
+    /*
+    *first i am ordering the events based on their starttime
+    *in this function i compare the starttime of events to the final time of the last event in a specific room to see if it's okey to place the event there
+    */
     public void Distribution()
     {
         for(int i=0;i<events.length-1;i++)

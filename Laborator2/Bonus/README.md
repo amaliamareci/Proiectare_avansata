@@ -1,2 +1,4 @@
 Bonus LAB2
 Am folosit import java.sql.Time pentru a putea descrie startul si endul unui event.Dupa am incercat sa implementez algorimtul de colorare DSaturn in clasa SolutionGraph in functia DSatur() unde am incercat sa iau in calcul si size-ul camerelor si nr de participanti al event-urilor insa rezultatul final nu este o distributie corecta .Nu am facut partea de instante mari generate random .
+Pentru functia DSatur mergem cu while-ul atat timp cat n-am colorat tpate nodurile care reprezinta eventuri si aflam la fiecare pas nodul care are saturatia cea mai mare (saturatia fiind numarul de culori folosite pentru nodurile adiacente )apoi coloram cu varianta de culoare cea mai mica poisibila pe care o aflam in getMinColor si crestem saturatia pentru nodurile aadiacente.Daca doua noduri au aceeasi saturatie se alege cel cu gradul mai mare.
+![image](https://user-images.githubusercontent.com/79132498/157710661-258a0b3e-dd2e-48ed-be73-239114540e52.png)

@@ -17,17 +17,6 @@ public abstract class Room {
         this.capacity = capacity;
     }
 
-    /*   @Override
-  /* public String toString() {
-         String newType;
-         if(type==RoomType.LECTURE_HALLS)
-             newType="lecture hall";
-         else
-             newType="lab";
-         return  name + '(' + "cap="
-                 +capacity+", " +newType+")";
-     }
- */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

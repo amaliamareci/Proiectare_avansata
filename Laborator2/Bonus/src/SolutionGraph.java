@@ -65,7 +65,7 @@ public class SolutionGraph {
 
 
     /**
-     * gets the node with the max saturation that is not visited;
+     * gets the node with the max saturation that is not colored;
      */
     public int getMaxSaturation() {
         int sat = 0;

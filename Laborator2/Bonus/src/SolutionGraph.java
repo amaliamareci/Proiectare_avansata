@@ -30,7 +30,7 @@ public class SolutionGraph {
     /**
      *  DSatur algorithm for graph coloring
      */
-    void DSatur() {
+   public void DSatur() {
         createMatrix();
         int coloredNodes = 0;
         while (coloredNodes < nrEvents) {
@@ -50,7 +50,7 @@ public class SolutionGraph {
      * creates the adjacency matrix where events are nodes and edges are between conflicting events
      * and the degree vector
      */
-    void createMatrix() {
+    public void createMatrix() {
         for (int i = 0; i < nrEvents; i++)
             for (int j = 0; j < nrEvents; j++) {
                 if (!((events[i].startTime).compareTo(events[j].endTime)<0 && (events[i].startTime).compareTo(events[j].startTime)>=0 ) && i != j)
@@ -67,7 +67,7 @@ public class SolutionGraph {
     /**
      * gets the node with the max saturation that is not visited;
      */
-    int getMaxSaturation() {
+    public int getMaxSaturation() {
         int sat = 0;
         int index = 0;
         for (int i = 0; i < nrEvents; i++)
@@ -81,7 +81,7 @@ public class SolutionGraph {
     /**
      * get the most minimum color for node
      */
-    int getMinColor(int node) {
+    public int getMinColor(int node) {
         boolean[] used = new boolean[nrColors + 1];
         for (int i = 0; i < nrColors; i++)
             used[i] = false;
@@ -100,7 +100,7 @@ public class SolutionGraph {
     /**
      * prints the rooms and the events
      */
-    void printSolution() {
+    public void printSolution() {
         if (nrColors > nrRooms) {
             System.out.println("There are not enough rooms.");
         } else {

@@ -1,5 +1,5 @@
 /**
- * Mareci Ioana Amalia 2A2
+ * @author Mareci Ioana Amalia 2A2
  * PA compulsory lab3
  */
 public class Main {

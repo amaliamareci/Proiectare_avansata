@@ -18,7 +18,7 @@ public class Router  extends Node implements Identifiable{
 
     @Override
     public String toString() {
-        return locationMap+"("+"Router " + getName()+")";
+        return getLocationMap()+"("+"Router " + getName()+")";
     }
 
 

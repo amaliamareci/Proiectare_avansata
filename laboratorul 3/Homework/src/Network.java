@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Network {
-    List<Node> nodes = new ArrayList<>();
+    private List<Node> nodes = new ArrayList<>();
 
     public Network(List<Node> nodes) {
         this.nodes = nodes;

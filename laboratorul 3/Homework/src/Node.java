@@ -2,10 +2,10 @@ import java.util.Objects;
 import java.util.*;
 
 public class Node implements Comparable<Node> {
-    String name;
-    String locationMap;
-    String macAddress;
-    Map<Node, Integer> cost = new HashMap<Node, Integer>();
+    private String name;
+    private String locationMap;
+    private String macAddress;
+    private Map<Node, Integer> cost = new HashMap<Node, Integer>();
 
     public Node(String name, String locationMap, String macAddress) {
         this.name = name;

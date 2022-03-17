@@ -7,3 +7,5 @@ Implement an efficient agorithm to determine the safest route for a packet to tr
 Generate random network instances with known optimum and test your algorithm using JUnit or other framework.(i didn't do this one )
 
 I used the same algorithm of Dijkstra makink the new_cost=(cost*probability of failure) to find the minimum cost and path
+
+The Dijkstra's algorithm and the printing method for the path are in class Path  

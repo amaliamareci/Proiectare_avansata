@@ -1,11 +1,11 @@
 import java.util.Objects;
 import java.util.*;
 public class Node implements Comparable<Node> {
-    String name;
-    String locationMap;
-    String macAddress;
-    double distance;
-    boolean known;
+    private String name;
+    private String locationMap;
+    private String macAddress;
+    private double distance;
+    private boolean known;
 
     Map<Node, Integer> new_cost = new HashMap<>();
 

@@ -1,6 +1,6 @@
 public class Computer extends Node implements Identifiable,Storage{
-    String IP;
-    int capacity;
+    private String IP;
+    private int capacity;
 
     public Computer(String name, String locationMap, String macAddress, String IP, int capacity) {
         super(name, locationMap, macAddress);

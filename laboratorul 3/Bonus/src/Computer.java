@@ -30,7 +30,7 @@ public class Computer extends Node implements Identifiable,Storage{
 
     @Override
     public String toString() {
-        return locationMap+"("+"Computer " + getName()+")";
+        return getLocationMap()+"("+"Computer " + getName()+")";
     }
 
     @Override

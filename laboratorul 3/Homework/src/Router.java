@@ -1,5 +1,5 @@
 public class Router extends Node implements Identifiable {
-    String IP;
+    private String IP;
 
     public Router(String name, String locationMap, String macAddress, String IP) {
         super(name, locationMap, macAddress);

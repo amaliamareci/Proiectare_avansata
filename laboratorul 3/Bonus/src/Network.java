@@ -1,6 +1,6 @@
 import java.util.*;
 public class Network {
-    List<Node>nodes=new ArrayList<>();
+    private List<Node>nodes=new ArrayList<>();
     //Map<Node, Integer> map = new HashMap<Node, Integer>();
     public Network(List<Node> nodes) {
         this.nodes = nodes;

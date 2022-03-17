@@ -93,8 +93,8 @@ public class Path {
             shortestPath[j] = path.get(j);
         }
         for (int k = 0; k < shortestPath.length; k++)
-            System.out.print(nodes.get(shortestPath[k]).locationMap);
-        System.out.print(nodes.get(finishIndex).locationMap);
+            System.out.print(nodes.get(shortestPath[k]).getLocationMap());
+        System.out.print(nodes.get(finishIndex).getLocationMap());
         System.out.println();
     }
 

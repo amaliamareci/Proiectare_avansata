@@ -1,0 +1,3 @@
+Some books
+Book{name='The Art of Computer Programming', id='knuth67', path='Books\The Art of Computer Programming.txt', author='Donald E. Knuth', year='1967', type='book'}
+Book{name='The Java Language Specification', id='java17', path='Books\The Java Language Specification.txt', author='James Gosling & others', year='2021', type='book'}

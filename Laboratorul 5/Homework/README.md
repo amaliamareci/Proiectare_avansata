@@ -22,3 +22,6 @@ All the commands are imlemented in package commands and de classes: Main ,Item,C
 
 In class InfoCommand i tried to get the metadatas from the catalog items using Apache Tika and display them .
 
+In package exception i have MyException class which i use in add method in Catalog to see if an item I am trying to add is aleardy in the array.In main i am adding the same article twice but I commented on the add part so as not to display the error(for articole 2)
+
+In target folder items.txt is used in ViewCommand to see the items and in catalog.json i am saving the catalog and then in load i am recovering the catalog.

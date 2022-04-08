@@ -11,9 +11,9 @@ Example of entries in the catalog might be:
 
 Compulsory (1p)
 
-Create an object-oriented model of the problem. You should have at least the following classes: Catalog and Item. The items should have at least a unique identifier, a title and its location. Consider using an interface or an abstract class in order to describe the items in a catalog.
+- [x] Create an object-oriented model of the problem. You should have at least the following classes: Catalog and Item. The items should have at least a unique identifier, a title and its location. Consider using an interface or an abstract class in order to describe the items in a catalog.
 
-Implement the following methods representing commands that will manage the content of the catalog:
+- [x] Implement the following methods representing commands that will manage the content of the catalog:
 
 add: adds a new entry into the catalog;
 
@@ -23,5 +23,5 @@ save: saves the catalog to an external file using JSON format; you may use Jacks
 
 load: loads the catalog from an external file.
 
-The load and save methods are implimented in class CatalogCommands
-The books are in folder Books and the catalog is saved in folder 'saved catalog' in a txtct file 
+- [x] The load and save methods are implimented in class CatalogCommands
+- [x] The books are in folder Books and the catalog is saved in folder 'saved catalog' in a txtct file 

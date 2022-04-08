@@ -1,6 +1,6 @@
 Homework (2p)
 
-- [x]Represent the commands using classes instead of methods. Use an interface or an abstract class in order to desribe a generic command.
+- [x] Represent the commands using classes instead of methods. Use an interface or an abstract class in order to desribe a generic command.
 
 Implement the commands load, list, view, report (create the classes AddCommand, ListCommand, etc.).
 

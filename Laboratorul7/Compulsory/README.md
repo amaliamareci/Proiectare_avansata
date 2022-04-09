@@ -19,3 +19,9 @@ Compulsory (1p)
 - [x] Simulate the game using a thread for each player.
 
 - [x] Pay attention to the synchronization of the threads when extracting tokens from the bag and when putting words on the board.
+
+
+![image](https://user-images.githubusercontent.com/79132498/162586746-3ea3b11a-3921-426e-9e56-b62de91a0e0c.png)
+
+
+In this project the players are extracting from the bag a set of letters (in this case 7 letters) and then they are sending to the board the word made from that letters.This goes on as long as there still enough letters in the bag .For each player I am making a new thread and then the Player class implements Runnable ,therefore it has a run method in wich i am making the runnable true or not,depending on the submitWord method .

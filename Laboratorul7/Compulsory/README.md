@@ -25,3 +25,5 @@ Compulsory (1p)
 
 
 In this project the players are extracting from the bag a set of letters (in this case 7 letters) and then they are sending to the board the word made from that letters.This goes on as long as there still enough letters in the bag .For each player I am making a new thread and then the Player class implements Runnable ,therefore it has a run method in wich i am making the runnable true or not,depending on the submitWord method .
+
+I used logger for exceptions.

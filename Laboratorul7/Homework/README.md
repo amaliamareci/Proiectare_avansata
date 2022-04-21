@@ -45,3 +45,4 @@ And if it the gametime is exceeded :
 ![image](https://user-images.githubusercontent.com/79132498/164467301-e237d1ee-3e4f-4908-8847-ed4d08712898.png)
 
 
+The words are in the words.txt .

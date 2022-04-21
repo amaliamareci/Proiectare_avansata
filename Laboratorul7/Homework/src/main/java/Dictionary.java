@@ -6,7 +6,7 @@ import java.util.*;
  * class representing the dictionary where I check if a word is ok or not
  */
 public class Dictionary {
-    List<String> words = new ArrayList<>();
+    private List<String> words = new ArrayList<>();
 
     public Dictionary() {
         try {

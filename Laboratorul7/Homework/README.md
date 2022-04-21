@@ -46,3 +46,5 @@ And if it the gametime is exceeded :
 
 
 The words are in the words.txt .
+
+In class combinations i am making all the posibble words from the letters from the input string .

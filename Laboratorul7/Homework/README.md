@@ -33,3 +33,10 @@ Homework (2p)
 - [ ] Make sure that players wait their turns, using a wait-notify approach.
 
 - [x] Implement a timekeeper thread that runs concurrently with the player threads, as a daemon. This thread will display the running time of the game and it will stop the game if it exceeds a certain time limit.
+
+I implemented the timekeeper thread in class Timer and i am using it in class Game in method main before calling the play method .At the end of the game before displaying the  winner I am displaying the time
+
+I am displaying for each Player the word and total points every time they extract the tiles from the bag.The output looks something like this: 
+
+![image](https://user-images.githubusercontent.com/79132498/164465989-5a50128a-18fe-4978-95a7-a7af93eebcb8.png)
+

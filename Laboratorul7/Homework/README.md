@@ -40,3 +40,8 @@ I am displaying for each Player the word and total points every time they extrac
 
 ![image](https://user-images.githubusercontent.com/79132498/164465989-5a50128a-18fe-4978-95a7-a7af93eebcb8.png)
 
+And if it the gametime is exceeded :
+
+![image](https://user-images.githubusercontent.com/79132498/164467301-e237d1ee-3e4f-4908-8847-ed4d08712898.png)
+
+

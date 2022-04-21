@@ -10,8 +10,8 @@ public class Player implements Runnable {
     private Game game;
     private boolean running = true;
     private final static Logger LOGGER = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
-    int round = 1;
-    int score;
+    private int round = 1;
+    private int score;
 
     public Player(String name) {
         this.name = name;

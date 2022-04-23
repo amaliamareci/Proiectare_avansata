@@ -37,3 +37,15 @@ I test my project using method printCountries and printContinents to print  all 
 The output looks like this:
 
 ![image](https://user-images.githubusercontent.com/79132498/164908162-af78b67d-5840-4928-8766-1dc5bdb87012.png)
+
+
+While in postgres the tables also look like this:
+
+![image](https://user-images.githubusercontent.com/79132498/164908939-5547ba59-2b92-4ddf-8d35-06d3647bd7ba.png)
+
+
+![image](https://user-images.githubusercontent.com/79132498/164908949-26f7df86-dea0-47a1-ab8b-0916a92a9ac8.png)
+
+
+
+
